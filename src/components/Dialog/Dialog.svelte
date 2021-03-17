@@ -84,10 +84,10 @@
 
   // export let showClose = true
   let resolve
-  export let promise = new Promise((fulfil) => (resolve = fulfil))
+  // export let promise = new Promise((fulfil) => (resolve = fulfil))
   
   // TODO: programmatic subcomponents
-  export let subComponent = null
+  // export let subComponent = null
   export let appendToBody = true
 
   let modal

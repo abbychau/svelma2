@@ -7,7 +7,6 @@
   export let animProps = { start: 1.2 }
   export let size = ''
   export let showClose = true
-  export let subComponent = null
   export let onBody = true
 
   let modal
@@ -42,7 +41,6 @@
     <div class="modal-background" on:click={close}></div>
     <div class="modal-content" transition:_animation|local={animProps}> <!-- transition:_animation|local -->
       <slot />
-      <div class="sub-component"></div>
     </div>
     {#if showClose}
       <button class="modal-close is-large" aria-label="close" on:click={close}></button>
