@@ -63,16 +63,14 @@
     "autobuild": "rollup -c -w",
     "dev": "run-p autobuild autodocs",
     "docs": "(cd docs; npx sapper export --basepath svelma)",
-    "docs:deploy": "./docs.sh",
     "autodocs": "(cd docs; npx sapper dev --basepath svelma)",
     "jsdocs": "(cd docs; npx jsdoc -c jsdoc/conf.js)",
     "prepublishOnly": "npm run build",
-    "postpublish": "npm run docs:deploy",
     "changelog": "conventional-changelog -i CHANGELOG.md -p angular",
     "semantic-release": "semantic-release"
   },
   "browserslist": "last 2 versions",
-  "homepage": "https://github.com/c0bra/svelma#readme",
+  "homepage": "https://github.com/abbychau/svelma#readme",
   "directories": {
     "doc": "docs"
   }
