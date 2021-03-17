@@ -14,7 +14,7 @@
   $: _animation = chooseAnimation(animation)
   $: {
     if (modal && active && onBody) {
-      modal.parentNode.removeChild(modal)
+      modal.parentNode?.removeChild(modal)
       document.body.appendChild(modal)
     }
   }
