@@ -1,9 +1,9 @@
 {
-  "name": "svelma",
+  "name": "@abbymd/svelma",
   "svelte": "src/index.js",
   "description": "Bulma components for Svelte",
-  "version": "0.4.0",
-  "author": "Brian Hann",
+  "version": "0.4.1",
+  "author": "Abby Chau, Brian Hann",
   "license": "MIT",
   "keywords": [
     "svelte",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/c0bra/svelma"
+    "url": "git+https://github.com/abbychau/svelma.git"
   },
   "bugs": {
-    "url": "https://github.com/c0bra/svelma/issues"
+    "url": "https://github.com/abbychau/svelma/issues"
   },
   "module": "dist/module.js",
   "main": "dist/index.js",
@@ -45,6 +45,7 @@
     "rollup-plugin-bundle-size": "^1.0.3",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-scss": "^2.6.1",
@@ -55,8 +56,7 @@
     "standard-version": "^9.1.1",
     "svelte": "^3.35.0",
     "svelte-preprocess": "^4.6.9",
-    "wait-for-localhost-cli": "^2.0.0",
-    "rollup-plugin-css-only": "^3.1.0"
+    "wait-for-localhost-cli": "^2.0.0"
   },
   "scripts": {
     "build": "rollup -c",
@@ -71,5 +71,9 @@
     "changelog": "conventional-changelog -i CHANGELOG.md -p angular",
     "semantic-release": "semantic-release"
   },
-  "browserslist": "last 2 versions"
+  "browserslist": "last 2 versions",
+  "homepage": "https://github.com/c0bra/svelma#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
