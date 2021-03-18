@@ -18,7 +18,7 @@
     "url": "git+https://github.com/abbychau/svelma.git"
   },
   "bugs": {
-    "url": "https://github.com/abbychau/svelma/issues"
+    "url": "https://github.com/abbychau/svelma2/issues"
   },
   "module": "dist/module.js",
   "main": "dist/index.js",
