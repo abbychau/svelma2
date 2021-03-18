@@ -12,7 +12,7 @@
 
 # Inspiration
 
-Much thanks to the [Buefy](https://buefy.org) project! It provided the inspiration and lots of code examples for Svelma.. If you like Vue.js and Bulma, check it out.
+Much thanks to the [Buefy](https://buefy.org) and [Svelma](https://c0bra.github.io/svelma/) projects! It provided the inspiration and lots of code examples for this version of Svelma.
 
 # Features
 
@@ -72,7 +72,7 @@ export default {
 <!-- App.svelte -->
 <script>
   import 'bulma/css/bulma.css'
-  import { Button } from 'svelma'
+  import { Button } from '@abbychau/svelma'
 </script>
 
 <button type="is-primary">I'm a Button!</button>
@@ -111,7 +111,7 @@ import Button from 'svelma/src/components/Button.svelte'
 instead of
 
 ```js
-import { Button } from 'svelma'
+import { Button } from '@abbychau/svelma'
 ```
 
 # Development
