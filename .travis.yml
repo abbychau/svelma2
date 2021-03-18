@@ -9,8 +9,6 @@ branches:
 install:
   - npm ci || npm i -f
 
-script: skip
-
 jobs:
   include:
     - stage: release
