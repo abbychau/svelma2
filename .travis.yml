@@ -8,7 +8,7 @@ branches:
 
 install:
   - npm i -f
-  - npm i rollup -D
+  - npm i rollup node-sass svelte-preprocess rollup-plugin-postcss --save-dev
 
 cache:
   directories:
