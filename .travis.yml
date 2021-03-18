@@ -8,6 +8,7 @@ branches:
 
 install:
   - npm i -f
+  - npm i rollup -D
 
 cache:
   directories:

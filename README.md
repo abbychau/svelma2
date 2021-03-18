@@ -22,7 +22,7 @@ Much thanks to the [Buefy](https://buefy.org) and [Svelma](https://c0bra.github.
 
 # Documentation
 
-[See docs + demos site here](https://abbychau.github.io/svelma)
+[See docs + demos site here](https://abbychau.github.io/svelma2)
 
 # Quick Start
 
