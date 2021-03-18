@@ -5,9 +5,9 @@
 <a href="https://www.npmjs.com/package/svelma"><img src="https://img.shields.io/npm/v/svelma.svg" /></a>
 <a href="https://www.npmjs.com/package/svelma"><img src="https://img.shields.io/npm/l/svelma.svg" /></a>
 <a href="https://bundlephobia.com/result?p=svelma"><img src="https://badgen.net/bundlephobia/minzip/svelma"></a>
-<a href="https://travis-ci.com/c0bra/svelma"><img src="https://travis-ci.com/c0bra/svelma.svg?branch=master"></a>
+<a href="https://travis-ci.com/abbychau/svelma"><img src="https://travis-ci.com/abbychau/svelma.svg?branch=master"></a>
 
-<!-- <a href="https://circleci.com/gh/c0bra/svelma"><img src="https://img.shields.io/circleci/project/c0bra/svelma/svelma.svg?style=flat-square" /></a> -->
+<!-- <a href="https://circleci.com/gh/abbychau/svelma"><img src="https://img.shields.io/circleci/project/abbychau/svelma/svelma.svg?style=flat-square" /></a> -->
 <!-- <a href="https://codecov.io/gh/svelma/svelma"><img src="https://img.shields.io/codecov/c/github/svelma/svelma.svg?style=flat-square" /></a> -->
 
 # Inspiration
@@ -22,7 +22,7 @@ Much thanks to the [Buefy](https://buefy.org) project! It provided the inspirati
 
 # Documentation
 
-[See docs + demos site here](https://c0bra.github.io/svelma)
+[See docs + demos site here](https://abbychau.github.io/svelma)
 
 # Quick Start
 
@@ -116,7 +116,7 @@ import { Button } from 'svelma'
 
 # Development
 
-1. Clone this repo: `git clone https://github.com/c0bra/svelma.git`
+1. Clone this repo: `git clone https://github.com/abbychau/svelma.git`
 2. Install dependencies:
    1. `npm i && (cd docs; npm i)`
    2. `npm install -g semantic-release-cli commitizen`

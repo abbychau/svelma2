@@ -12,21 +12,13 @@ const production = !process.env.ROLLUP_WATCH
 const { name } = pkg
 
 export default {
-  input: 'src/index.js',
-  output: [
-    {
-      file: pkg.module,
-      format: 'es',
-      sourcemap: true,
-      name,
-    },
-    {
-      file: pkg.main,
-      format: 'umd',
-      sourcemap: true,
-      name,
-    },
-  ],
+	input: 'src/index.js',
+	output: {
+		sourcemap: true,
+		format: 'iife',
+		name: name,
+		file: 'public/build/bundle.js'
+	},
   plugins: [
     css({ output: 'bundle.css' }),
     svelte({
