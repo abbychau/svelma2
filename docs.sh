@@ -4,7 +4,6 @@
 set -e
 
 NODE_ENV=production npm run build
-cd docs; npm ci
 # NODE_ENV=production npm run jsdocs
 NODE_ENV=production npm run docs
 

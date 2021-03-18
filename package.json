@@ -61,7 +61,7 @@
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
     "dev": "run-p autobuild autodocs",
-    "docs": "(cd docs; npx sapper export --basepath svelma2)",
+    "docs": "(cd docs; npm i -f; npx sapper export --basepath svelma2)",
     "autodocs": "(cd docs; npx sapper dev --basepath svelma2)",
     "jsdocs": "(cd docs; npx jsdoc -c jsdoc/conf.js)",
     "prepublishOnly": "npm run build",
