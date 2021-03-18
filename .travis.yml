@@ -7,7 +7,12 @@ branches:
     - develop
 
 install:
-  - npm ci || npm i -f
+  - npm i -f
+
+cache:
+  directories:
+  - "./node_modules"
+  - "$HOME/.npm"
 
 jobs:
   include:
