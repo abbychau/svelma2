@@ -57,7 +57,7 @@
 </style>
 
 <svelte:head>
-  <title>Svelma</title>
+  <title>Svelma2</title>
   <meta property="og:site_name" content="Svelma" />
   <meta property="og:image" content="https://abbychau.github.io/svelma2/svelma-logo.png" />
   <meta property="og:image:width" content="200" />
