@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
-    "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
+    "build": "sapper build",
+    "export": "sapper export",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
@@ -18,8 +18,8 @@
     "highlight.js": "^10.6.0",
     "lodash": "^4.17.21",
     "polka": "^0.5.2",
-    "sirv": "^1.0.11",
-    "svelma": "file:../"
+    "sirv": "^1.0.11"
+    
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
@@ -45,6 +45,7 @@
     "sapper": "^0.29.1",
     "sass": "^1.32.8",
     "svelte": "^3.35.0",
-    "svelte-preprocess": "^4.6.9"
+    "svelte-preprocess": "^4.6.9",
+    "svelma": "file:../"
   }
 }

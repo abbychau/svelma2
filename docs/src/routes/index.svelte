@@ -56,7 +56,7 @@
       <h2 class="subtitle">Bulma components for Svelte</h2>
 
       <pre>
-        <code>$ npm install svelma</code>
+        <code>$ npm install svelma2</code>
       </pre>
 
       <br />

@@ -72,7 +72,7 @@ export default {
 <!-- App.svelte -->
 <script>
   import 'bulma/css/bulma.css'
-  import { Button } from '@abbychau/svelma'
+  import { Button } from 'svelma2'
 </script>
 
 <button type="is-primary">I'm a Button!</button>
@@ -111,7 +111,7 @@ import Button from 'svelma/src/components/Button.svelte'
 instead of
 
 ```js
-import { Button } from '@abbychau/svelma'
+import { Button } from 'svelma2'
 ```
 
 # Development

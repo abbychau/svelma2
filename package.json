@@ -1,5 +1,5 @@
 {
-  "name": "@abbychau/svelma",
+  "name": "svelma2",
   "svelte": "src/index.js",
   "description": "Bulma components for Svelte",
   "version": "0.4.2",
@@ -62,8 +62,8 @@
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
     "dev": "run-p autobuild autodocs",
-    "docs": "(cd docs; npx sapper export --basepath svelma)",
-    "autodocs": "(cd docs; npx sapper dev --basepath svelma)",
+    "docs": "(cd docs; npx sapper export --basepath svelma2)",
+    "autodocs": "(cd docs; npx sapper dev --basepath svelma2)",
     "jsdocs": "(cd docs; npx jsdoc -c jsdoc/conf.js)",
     "prepublishOnly": "npm run build",
     "changelog": "conventional-changelog -i CHANGELOG.md -p angular",
