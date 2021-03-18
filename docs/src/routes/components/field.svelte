@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Button, Field, Icon, Input } from 'svelma'
+  import { Button, Field, Icon, Input } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -21,7 +21,7 @@
 <DocHeader title="Field" subtitle="Add functionality and styling to form elements/inputs by grouping components together" />
 
 <Example code={`<script>
-  import { Field, Input } from 'svelma'
+  import { Field, Input } from 'svelma2'
 </script>
 
 <Field label="Name">
@@ -57,7 +57,7 @@
 Multiple controls in a field get attached.  Use <code>expanded</code> property on the control to fill up space on the line.
 
 <Example code={`<script>
-  import { Button, Field, Icon, Input } from 'svelma'
+  import { Button, Field, Icon, Input } from 'svelma2'
 </script>
 
 <Field>
@@ -131,7 +131,7 @@ Multiple controls in a field get attached.  Use <code>expanded</code> property o
 Use the <code>grouped</code> property to group controls together. Use the <code>expanded</code> property to make a control take up remaining space.
 
 <Example code={`<script>
-  import { Button, Field, Input } from 'svelma'
+  import { Button, Field, Input } from 'svelma2'
 </script>
 
 <Field grouped>
@@ -171,7 +171,7 @@ Use the <code>grouped</code> property to group controls together. Use the <code>
 You can nest fields inside fields. You have to use the <code>expanded</code> property on the <strong>Field</strong> to fill up the remaining space. 
 
 <Example code={`<script>
-  import { Button, Field, Input } from 'svelma'
+  import { Button, Field, Input } from 'svelma2'
 </script>
 
 <Field grouped>
@@ -211,7 +211,7 @@ You can nest fields inside fields. You have to use the <code>expanded</code> pro
 Add <code>groupMultiline</code> property to allow controls to fill up multiple lines.
 
 <Example code={`<script>
-  import { Button, Field, Input } from 'svelma'
+  import { Button, Field, Input } from 'svelma2'
 </script>
 
 <Field grouped groupMultiline>
@@ -241,7 +241,7 @@ Add <code>groupMultiline</code> property to allow controls to fill up multiple l
 Use <code>position</code> property to align Field horizontally.
 
 <Example code={`<script>
-  import { Button, Field, Input } from 'svelma'
+  import { Button, Field, Input } from 'svelma2'
 </script>
 
 <Field position="is-centered">

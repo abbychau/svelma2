@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Collapse } from 'svelma'
+  import { Collapse } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -19,7 +19,7 @@
 <DocHeader title="Collapse" subtitle="Collapsible elements" />
 
 <Example code={`<script>
-  import { Collapse } from 'svelma'
+  import { Collapse } from 'svelma2'
 </script>
 
 <Collapse>

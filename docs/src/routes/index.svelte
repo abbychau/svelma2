@@ -1,5 +1,5 @@
 <script>
-  import { Message } from 'svelma'
+  import { Message } from 'svelma2'
 </script>
 
 <style>
@@ -43,7 +43,7 @@
 </style>
 
 <svelte:head>
-  <title>Svelma</title>
+  <title>Svelma2</title>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Svelma" />
   <meta property="og:description" content="Bulma components for Svelte" />
@@ -52,7 +52,7 @@
 <div class="hero is-full-height">
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title">Svelma</h1>
+      <h1 class="title">Svelma2</h1>
       <h2 class="subtitle">Bulma components for Svelte</h2>
 
       <pre>

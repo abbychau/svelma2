@@ -3,7 +3,7 @@
   import Codepreview from '../../components/Code.svelte'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
-  import { Progress } from 'svelma'
+  import { Progress } from 'svelma2'
 
   const types = ['is-primary', 'is-success', 'is-danger', 'is-warning', 'is-info', 'is-link']
   const progresses = Array(6).fill(0)
@@ -23,7 +23,7 @@
 
 <Example code={`<script>
   import { onDestroy, onMount } from 'svelte'
-  import { Progress } from 'svelma'
+  import { Progress } from 'svelma2'
   
   const types = ['is-primary', 'is-success', 'is-danger', 'is-warning', 'is-info', 'is-link']
   const progresses = Array(6).fill(0)

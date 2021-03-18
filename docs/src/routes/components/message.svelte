@@ -1,5 +1,5 @@
 <script>
-  import { Button, Message } from 'svelma'
+  import { Button, Message } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
 
@@ -9,7 +9,7 @@
 <DocHeader title="Message" subtitle="Message blocks to convey information" />
 
 <Example code={`<script>
-  import { Button, Message } from 'svelma'
+  import { Button, Message } from 'svelma2'
 
   let open
 </script>

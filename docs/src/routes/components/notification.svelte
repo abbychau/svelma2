@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Button, Notification } from 'svelma'
+  import { Button, Notification } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -37,7 +37,7 @@
 
 <Example
   code={`<script>
-  import { Button, Notification } from 'svelma';
+  import { Button, Notification } from 'svelma2';
 
   let isOpen = true
 </script>
@@ -62,7 +62,7 @@
 
 <Example
   code={`<script>
-  import { Notification } from 'svelma';
+  import { Notification } from 'svelma2';
 </script>
 
 <Notification>
@@ -123,7 +123,7 @@
 
 <Example
   code={`<script>
-  import { Notification } from 'svelma';
+  import { Notification } from 'svelma2';
 </script>
 
 <Notification icon="question-circle">
@@ -189,7 +189,7 @@
 </p>
 
 <Example code={`<script>
-  import { Button, Notification } from 'svelma';
+  import { Button, Notification } from 'svelma2';
 
   let autoIsOpen = false
 </script>
@@ -213,7 +213,7 @@
 <p class="title is-4">Opening with code</p>
 
 <Example code={`<script>
-  import { Button, Notification } from 'svelma';
+  import { Button, Notification } from 'svelma2';
 
   function showNotification(props) {
     Notification.create({

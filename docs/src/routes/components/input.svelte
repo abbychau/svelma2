@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Field, Input } from 'svelma'
+  import { Field, Input } from 'svelma2'
   import Codeview from '../../components/Code.svelte'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
@@ -33,7 +33,7 @@
 <br>
 
 <Example code={`<script>
-  import { Input } from 'svelma'
+  import { Input } from 'svelma2'
 </script>
 
 <Input type="text" placeholder="Text input" />
@@ -50,7 +50,7 @@
 <p class="content">Wrap with <a href="components/field"><strong>Field</strong></a> for additional features</p>
 
 <Example code={`<script>
-  import { Field, Input } from 'svelma'
+  import { Field, Input } from 'svelma2'
 
   let bound = {
     name: 'Rich Harris',
@@ -115,7 +115,7 @@
 <p class="title is-4">States, plus more styles</p>
 
 <Example code={`<script>
-  import { Field, Input } from 'svelma'
+  import { Field, Input } from 'svelma2'
 </script>
 
 <Field>
@@ -173,7 +173,7 @@
 <p class="title is-4">Sizes</p>
 
 <Example code={`<script>
-  import { Field, Input } from 'svelma'
+  import { Field, Input } from 'svelma2'
 </script>
 
 <Field>

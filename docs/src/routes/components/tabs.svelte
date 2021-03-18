@@ -10,7 +10,7 @@
 </script>
 
 <script>
-  import { Tabs, Tab } from 'svelma'
+  import { Tabs, Tab } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -22,7 +22,7 @@
 <DocHeader title="Tabs" subtitle="Horizontal navigation tabs" />
 
 <Example code={`<script>
-  import { Tabs, Tab } from 'svelma'
+  import { Tabs, Tab } from 'svelma2'
 </script>
 
 <Tabs>
@@ -56,7 +56,7 @@
 <p class="title is-4">Icons and Sizes</p>
 
 <Example code={`<script>
-  import { Tabs, Tab } from 'svelma'
+  import { Tabs, Tab } from 'svelma2'
 </script>
 
 <Tabs>
@@ -102,7 +102,7 @@
 <p class="title is-4">Position</p>
 
 <Example code={`<script>
-  import { Tabs, Tab } from 'svelma'
+  import { Tabs, Tab } from 'svelma2'
 </script>
 
 <Tabs position="is-centered">
@@ -141,7 +141,7 @@
 </p>
 
 <Example code={`<script>
-  import { Tabs, Tab } from 'svelma'
+  import { Tabs, Tab } from 'svelma2'
 </script>
 
 <Tabs style="is-boxed">

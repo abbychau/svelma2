@@ -1,5 +1,5 @@
 <script>
-  import { Message } from 'svelma'
+  import { Message } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Codeview from '../../components/Code.svelte'
 </script>
@@ -47,7 +47,7 @@ export default {
     </div>
     <Codeview lang="html" code={`
 <script>
-  import { Button } from 'svelma'
+  import { Button } from 'svelma2'
 </script>
 
 <Button>I am a Button</Button>
@@ -59,7 +59,7 @@ export default {
     </div>
     <Codeview lang="html" code={`
 <script>
-  import { Svelma } from 'svelma'
+  import { Svelma } from 'svelma2'
 </script>
 
 <Svelma.Button>I am a Button</Svelma.Button>

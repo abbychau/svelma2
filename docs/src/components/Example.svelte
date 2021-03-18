@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte'
-  import { Button } from 'svelma'
+  import { Button } from 'svelma2'
   import Code from './Code.svelte'
   import CodepenButton from './CodepenButton.svelte'
 

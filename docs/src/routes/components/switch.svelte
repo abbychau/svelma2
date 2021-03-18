@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Switch } from 'svelma'
+  import { Switch } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -20,7 +20,7 @@
 <DocHeader title="Switch" subtitle="Switchy toggly thing" />
 
 <Example code={`<script>
-  import { Switch } from 'svelma'
+  import { Switch } from 'svelma2'
   
   let val
 </script>
@@ -50,7 +50,7 @@
 <p class="title is-4">Types</p>
 
 <Example code={`<script>
-  import { Switch } from 'svelma'
+  import { Switch } from 'svelma2'
 </script>
 
 <div class="field">
@@ -98,7 +98,7 @@
 <p class="title is-4">Sizes</p>
 
 <Example code={`<script>
-  import { Switch } from 'svelma'
+  import { Switch } from 'svelma2'
 </script>
 
 <div class="field">

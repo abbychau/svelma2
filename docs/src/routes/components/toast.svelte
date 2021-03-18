@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Button, Toast } from 'svelma'
+  import { Button, Toast } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -31,7 +31,7 @@
 <DocHeader title="Toast" subtitle="Toasty notifications" />
 
 <Example code={`<script>
-  import { Button, Toast } from 'svelma'
+  import { Button, Toast } from 'svelma2'
 
   function open(type, position) {
     Toast.create({ message: 'I am a toast', type, position })

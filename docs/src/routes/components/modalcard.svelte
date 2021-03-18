@@ -1,5 +1,5 @@
 <script>
-    import { Button, ModalCard } from 'svelma'
+    import { Button, ModalCard } from 'svelma2'
     import DocHeader from '../../components/DocHeader.svelte'
     import Example from '../../components/Example.svelte'
   
@@ -9,7 +9,7 @@
   <DocHeader title="Modal Cards" subtitle="ModalCard popups" />
   
   <Example code={`<script>
-    import { Button, ModalCard } from 'svelma'
+    import { Button, ModalCard } from 'svelma2'
     
     let active = false
   </script>

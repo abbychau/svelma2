@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Button, Tooltip} from 'svelma'
+  import { Button, Tooltip} from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -29,7 +29,7 @@
 
 <Example code={`
   <script>
-    import { Button, Tooltip} from 'svelma'
+    import { Button, Tooltip} from 'svelma2'
   </script>
 
   <Tooltip label="Tooltip right" position="is-right">

@@ -10,7 +10,7 @@
 </script>
 
 <script>
-  import {Tag, Taglist} from 'svelma'
+  import {Tag, Taglist} from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -46,7 +46,7 @@
 
 <Example code={`
   <script>
-    import { Tag } from 'svelma'
+    import { Tag } from 'svelma2'
   </script>
 
   <Tag>Tag label</Tag>
@@ -68,7 +68,7 @@
 
 <Example code={`
   <script>
-    import { Tag } from 'svelma'
+    import { Tag } from 'svelma2'
     
     let isTag1Active = true
     let isTag2Active = true
@@ -135,7 +135,7 @@
 
 <Example code={`
   <script>
-    import { Tag, Taglist } from 'svelma'
+    import { Tag, Taglist } from 'svelma2'
   </script>
 
   <Taglist>
@@ -163,7 +163,7 @@
 
 <Example code={`
   <script>
-    import { Tag, Taglist } from 'svelma'
+    import { Tag, Taglist } from 'svelma2'
   </script>
 
   <Taglist attached>

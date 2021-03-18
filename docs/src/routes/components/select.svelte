@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Select, Field } from 'svelma'
+  import { Select, Field } from 'svelma2'
 
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
@@ -33,7 +33,7 @@
 <DocHeader title="Select" subtitle="Select an item in a dropdown list. Use with Field to access all functionalities" />
 
 <Example code={`<script>
-  import {Select, Field} from 'svelma'
+  import {Select, Field} from 'svelma2'
   let users = ["John", "Conner", "Randy"]
   
 </script>
@@ -169,7 +169,7 @@
 <p class="title is-4">Multiple</p>
 
 <Example code={`<script>
-  import {Select, Field} from 'svelma'
+  import {Select, Field} from 'svelma2'
 
   let selectedOptions = [];
 </script>
@@ -217,7 +217,7 @@
 <p class="title is-4">Icons</p>
 
 <Example code={`<script>
-  import {Select, Field} from 'svelma'
+  import {Select, Field} from 'svelma2'
   
 </script>
 
@@ -263,7 +263,7 @@
 <p class="title is-4">Sizes</p>
 
 <Example code={`<script>
-  import {Select, Field} from 'svelma'
+  import {Select, Field} from 'svelma2'
   
 </script>
 

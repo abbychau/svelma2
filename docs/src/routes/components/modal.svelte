@@ -1,5 +1,5 @@
 <script>
-  import { Button, Modal } from 'svelma'
+  import { Button, Modal } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
 
@@ -9,7 +9,7 @@
 <DocHeader title="Modal" subtitle="Modal popups" />
 
 <Example code={`<script>
-  import { Button, Modal } from 'svelma'
+  import { Button, Modal } from 'svelma2'
   
   let active = false
 </script>

@@ -9,7 +9,7 @@
 
 <script>
   import { onMount } from 'svelte'
-  import { Button, Icon } from 'svelma'
+  import { Button, Icon } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'

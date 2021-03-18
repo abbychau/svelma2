@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Button, Dialog, Toast } from 'svelma'
+  import { Button, Dialog, Toast } from 'svelma2'
   import Codepreview from '../../components/Code.svelte'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
@@ -58,7 +58,7 @@ value will be <code>false</code>. If the user clicks the confirm button the valu
 The first argument can either be an object of options or a string to use as the message.</p>
 
 <Example code={`<script>
-  import { Button, Dialog, Toast } from 'svelma'
+  import { Button, Dialog, Toast } from 'svelma2'
 
   function alert() {
     Dialog.alert('Alles ist gut')
@@ -106,7 +106,7 @@ dialog will be created with a required text input. You can control the props (at
 if they cancel/close.</p>
 
 <Example code={`<script>
-  import { Button, Dialog, Toast } from 'svelma'
+  import { Button, Dialog, Toast } from 'svelma2'
 
   function prompt(opts) {
     Dialog.prompt({

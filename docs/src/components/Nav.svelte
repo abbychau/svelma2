@@ -40,8 +40,8 @@
   <div class="container">
     <div class="navbar-brand">
       <a href={rootUrl} class="navbar-item brand">
-        <img src="svelma-logo.svg" class="logo" alt="Svelma: Bulma components for Svelte" />
-        Svelma
+        <img src="svelma-logo.svg" class="logo" alt="Svelma2: Bulma components for Svelte" />
+        Svelma2
       </a>
       <a class="navbar-item is-hidden-desktop" href={github} target="_blank">
         <span class="icon" style="color: #333;">

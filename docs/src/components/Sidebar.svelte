@@ -6,7 +6,7 @@
 
 <script>
   import difference from 'lodash/difference'
-  import { Svelma as Components } from 'svelma'
+  import { Svelma as Components } from 'svelma2'
 
   const formComponents = ['Input', 'Field', 'Switch'].sort()
   const omittedComponents = ['Tab', 'Taglist']

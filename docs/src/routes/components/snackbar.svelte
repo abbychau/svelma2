@@ -8,7 +8,7 @@
 </script>
 
 <script>
-  import { Button, Snackbar } from 'svelma'
+  import { Button, Snackbar } from 'svelma2'
   import DocHeader from '../../components/DocHeader.svelte'
   import Example from '../../components/Example.svelte'
   import JSDoc from '../../components/JSDoc.svelte'
@@ -31,7 +31,7 @@
 <DocHeader title="Snackbar" subtitle="Bigger than a toast, smaller than a dialog" />
 
 <Example code={`<script>
-  import { Button, Snackbar } from 'svelma'
+  import { Button, Snackbar } from 'svelma2'
 
   function open(props) {
     Snackbar.create({ message: 'I am a snackbar message', ...props })
