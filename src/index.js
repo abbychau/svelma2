@@ -49,6 +49,7 @@ export const Svelma = {
   Field,
   Message,
   Modal,
+  ModalCard,
   Notification,
   Progress,
   Select,

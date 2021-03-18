@@ -13,7 +13,7 @@
     <p class="title">NPM</p>
     <p class="subtitle is-spaced">For use with a project using a bundler like Webpack, Rollup, or Parcel</p>
     <p class="title is-4">Installation</p>
-    <Codeview lang="bash">npm install --save bulma svelma rollup-plugin-postcss</Codeview>
+    <Codeview lang="bash">npm install --save bulma svelma2 rollup-plugin-postcss</Codeview>
 
     <div class="content">Add <code>rollup-plugin-postcss</code> to your <code>rollup.config.js</code>.</div>
 
