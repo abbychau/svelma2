@@ -15,14 +15,14 @@
   </script>
   
   <Button class="block" on:click={() => active = !active}>Toggle</Button>
-  <ModalCard bind:active={active}>
+  <ModalCard bind:active={active} title="My Modal Title">
     <p class="image is-4by3">
       <img alt="Test image" src="https://via.placeholder.com/1280x920"/>
     </p>
   </ModalCard>`}>
     <div slot="preview">
       <Button class="block" on:click={() => active = !active}>Toggle</Button>
-      <ModalCard bind:active={active}>
+      <ModalCard bind:active={active} title="My Modal Title">
         <p class="image is-4by3">
           <img alt="Test" src="https://via.placeholder.com/1280x920"/>
         </p>

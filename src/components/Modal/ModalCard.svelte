@@ -3,6 +3,7 @@
   import { chooseAnimation, isEscKey } from '../../utils'
 
   export let active = true
+  export let title = "Modal Title"
   export let animation = 'scale'
   export let animProps = { start: 1.2 }
   export let size = ''
@@ -37,7 +38,7 @@
   <div class="modal-background" on:click={close}></div>
   <div class="modal-card" transition:_animation|local={animProps}>
     <header class="modal-card-head">
-      <p class="modal-card-title">Modal title</p>
+      <p class="modal-card-title">{title}</p>
       <button class="delete" aria-label="close" on:click={close} />
     </header>
     <section class="modal-card-body">

@@ -2,7 +2,7 @@
   "name": "svelma2",
   "svelte": "src/index.js",
   "description": "Bulma components for Svelte",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "author": "Abby Chau, Brian Hann",
   "license": "MIT",
   "keywords": [
